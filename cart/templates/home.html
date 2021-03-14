@@ -1,0 +1,10 @@
+
+
+<h1> hi </h1>
+
+
+{% for item in object_list %}
+<a href=" {{ item.get_absolute_url }}">{{ item.title}}</a>
+{% endfor %}
+
+
